@@ -43,8 +43,6 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><a href="/">Home</a></li>
-              <li><a href="./about.php">About</a></li>
-              <li class="active"><a href="/walled_garden.php">Walled Garden</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
