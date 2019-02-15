@@ -60,6 +60,3 @@ def exec(cmd):
 
 app.jinja_env.globals['get_user_file'] = get_user_file
 app.jinja_env.globals['exec'] = exec
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
