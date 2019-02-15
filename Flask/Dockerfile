@@ -1,4 +1,4 @@
-FROM python:3.4-alpine
+FROM ubuntu:16.04
 
 # Meta Information
 MAINTAINER Kiteretsu "teamprobably@gmail.com"
@@ -11,11 +11,11 @@ WORKDIR /code
 RUN apt update
 
 RUN apt install -y \
-	git 
-	
+	git \
+	python3-pip
 
-RUN pip install -r requirements.txt
-RUN pip install git+https://github.com/abenassi/Google-Search-API
 
-CMD ["python", "app.py"]
+RUN pip3 install -r requirements.txt
+RUN pip3 install git+https://github.com/abenassi/Google-Search-API
 
+CMD ["python3","app.py"]
