@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Team Probably - About</title>
+    <title>Team Probably</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="//use.edgefonts.net/annie-use-your-telescope.js"></script>
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -53,7 +53,7 @@
       <h1>Walled Garden</h1>
       <img src="./wall.gif" width="400px"/><br/><br/>
 <p>We put up a wall of 1024 captchas. And you think you can get past it?</p>
-<form action="./walled_garden.php" method="get">
+<form action="./index.php" method="get">
 <?php
 if (!isset($_GET['name']) || empty($_GET['name'])) { ?>
   <p>Enter your username to get started:</p>
