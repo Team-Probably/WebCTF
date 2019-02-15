@@ -132,4 +132,4 @@ def feedbackview():
 
 if __name__ == '__main__':
     balances['00000'] = int(1e18)
-    app.run()
+    app.run(host="0.0.0.0")
