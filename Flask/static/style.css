@@ -1,0 +1,161 @@
+html
+{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Montserrat';
+}
+body
+{
+	height: 100%;
+	width: 100%;
+}
+.center
+{
+	width: 80%;
+	text-align: center;
+	margin:auto;
+	font-weight: bold; 
+}
+
+#form
+{
+	width: 80%;
+	padding: 2%;
+	margin: auto;
+	transform: translateY(20%); 
+}
+button
+{
+	display: block;
+	width: 50%;
+	padding: 1%;
+	border-radius: 10px;
+	border: none;
+	margin: 5% auto;
+	background-color: #6F1E51;
+	color: #ffffff;
+	font-family: 'Montserrat';
+}
+button:hover
+{
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #cdcdcd;
+	font-size: 16px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat'; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Montserrat';
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Montserrat';
+}
+input
+{
+	width: 48%;
+	padding: 1%;
+	border-radius: 10px;
+	border: 1px solid #eaeaea;
+	margin: 0% 6%;
+}
+label
+{
+	margin: 5%;
+	text-align: center;
+}
+#result
+{
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+#title
+{
+	width: 70%;
+	float: left;
+	background-color: #6F1E51;
+	color: #ffffff;
+	text-align: center;
+	padding: 2%;
+	margin: auto;
+}
+
+#def
+{
+	padding: 2%;
+	float: left;
+	border: 1px solid #eaeaea;
+	width: 70%;
+	margin: auto;
+}
+.errorMsg
+{
+	width: 70%;
+	float: left;
+	color: red;
+	font-size: 12px;
+	display: block;
+	margin: 1% 25%; 
+}
+
+@media only screen and (max-width: 800px)
+{
+	html,body
+	{
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+	}
+	.center
+	{
+		margin-top: 5%;
+	}
+	#form
+	{
+		width: 100%;
+	}
+	button
+	{
+		width: 90%;
+		padding: 2%;
+		font-size: 16px;
+	}
+	input
+	{
+		width: 85%;
+		padding: 2%;
+	}
+	label
+	{
+		display: block;
+	}
+	#result
+	{
+		margin-top: 10%;
+	}
+	#title
+	{
+		width: 90%;
+		text-align: center;
+		padding: 2%;
+		margin-left: 3%;
+	}
+
+	#def
+	{
+		padding: 2%;
+		width: 90%;
+		margin-left: 3%;
+	}
+	.errorMsg
+	{
+		font-size: 14px;
+		text-align: center;
+	}
+	
+}
