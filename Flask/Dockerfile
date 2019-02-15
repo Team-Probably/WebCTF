@@ -6,8 +6,14 @@ MAINTAINER Kiteretsu "teamprobably@gmail.com"
 ADD . /code
 
 WORKDIR /code
-RUN apt-get update
-RUN apt-get install git
+
+# update
+RUN apt update
+
+RUN apt install -y \
+	git 
+	
+
 RUN pip install -r requirements.txt
 RUN pip install git+https://github.com/abenassi/Google-Search-API
 
