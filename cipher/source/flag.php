@@ -1,0 +1,7 @@
+$part1 = "WebTF{"
+$part2 = "s0m3b0dy_"
+$part3 = "w1ll_b3_4bl3_t0"
+$part4 = "_0v3rc0m3_"
+$part5 = "4ny_3ncryp7"
+$part6 = "10n_73chn1qu3"
+$part7 = "_y0u_us3}"
