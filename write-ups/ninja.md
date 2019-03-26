@@ -16,5 +16,3 @@ It returns a huge result:<br>
 `.....'SECRET_KEY': "def get_user_file(f_name):\n\twith open(f_name) as f:\n\t\treturn f.readlines()\n\ndef execute(cmd):\n return os.popen(cmd).read()\n\napp.jinja_env.globals['get_user_file'] = get_user_file\napp.jinja_env.globals['execute'] = execute\n", .....`
 
 The `SECRET_KEY` of the result seems to contain 2 python functions. get_user_file() seems to read a file and return it's contents while execute() returns the output of command run on the terminal. execute() can be used to gain access to the shell and execute the shell commands. 
-
-You can run the execute() function in Jinja as `{{execute("<command>")}}`
