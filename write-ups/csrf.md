@@ -1,9 +1,14 @@
-## CSRF Challenge Write up
+## CSRF Challenge 
+**Points:** 300
 
-### Challenge Description
+**Description:**
+The admin of this banking website is a very rich guy who loves reading feedback.
+Little does he know that he is about to be the target of the biggest online bank heist in history!
+
+## Write Up
 This challenge is based upon a simple ( and vulnerable ) money transfer website that can transfer money from one user to another using user id of the receipient. The flag is listed a premium service that worth Rs. 1000. 
 
-The catch here is that each user starts with a balance of 0, except admin who has unlimited balance. It is also mentioned that the admin frequently checks the feedback section.
+The catch here is that each user starts with a balance of 0, except admin who is "very rich". It is also mentioned that the admin frequently checks the feedback section.
 The objective is to somehow steal money from the admin  and then purchase the flag.
 
 ### Vulnerability
