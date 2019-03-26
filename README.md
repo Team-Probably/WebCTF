@@ -4,43 +4,43 @@ The web challenges created by us for the introductory hands on workshop on web e
 
 ### Cookie
 
-Challenge link: [insert link here]
+Challenge link: http://34.212.196.64:2800/
 
-Challenge write-up: [link here]
+Challenge [write-up](./write-ups/cookie)
 
-### Source code
+### Source of all problems
 
-Challenge link: [link here]
+Challenge link: http://jacksparrow.surge.sh/
 
-Challenge write-up: [link here]
-
+Challenge [write-up](./write-ups/source)
 
 ### 1024 captcha
 
-Challenge link: [link here]
+Challenge link: http://34.212.196.64:2100/
 
-Challenge write-up: [link here]
+Challenge [write-up](./write-ups/captcha)
 
-### Flask (Jinja thing?)
+### Flask Cards
 
-Challenge link: [link here]
+Challenge link: http://34.212.196.64:5000/
 
-Challenge write-up: [link here]
+Challenge [write-up](./write-ups/ninja)
+
 
 ### CSRF
 
-Challenge link: [link here]
+Challenge link: http://34.212.196.64:2500/
 
-Challenge write-up: [link here]
+Challenge [write-up](./write-ups/csrf)
 
 ### Cipher
 
 Challenge link: [link here]
 
-Challenge write-up: [link here]
+Challenge [write-up](./write-ups/cipher)
 
 ### Reload
 
-Challenge link: [link here]
+Challenge link: http://34.212.196.64:2000/
 
-Challenge write-up: [link here]
+Challenge [write-up](./write-ups/reload)
