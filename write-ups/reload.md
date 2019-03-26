@@ -1,6 +1,6 @@
 ## Reload
 
-On viewing the page source, we can see the text embedded "You are the 565th visitor to this page. Every five hundredth visitor gets a prize."
+On viewing the page source, we can see the text embedded "You are the xxxth visitor to this page. Every five hundredth visitor gets a prize."
 
 So we can figure out that we need to reload this page that many times and we'll probably get the flag. Can you figure out a way to do that?
 
