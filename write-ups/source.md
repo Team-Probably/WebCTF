@@ -6,4 +6,4 @@ This was more of a warm up question and as the name suggests, the flag was divid
 
 We leave it up to the reader to find out where the various parts of the flag are hidden.
 
-<b>Hint:</b>There are 6 parts in total :P
+<b>Hint:</b>There are 9 parts in total :P
