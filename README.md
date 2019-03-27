@@ -35,7 +35,7 @@ Challenge [write-up](./write-ups/csrf.md)
 
 ### Cipher
 
-Challenge link: [link here]
+Challenge link: http://34.212.196.64:2600/
 
 Challenge [write-up](./write-ups/cipher.md)
 
