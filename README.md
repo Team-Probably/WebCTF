@@ -2,6 +2,8 @@
 
 The web challenges created by us for the introductory hands on workshop on web exploitaion.
 
+The CTF can be played [here](http://teamprobably.cf)
+
 ### Cookie
 
 Challenge link: http://teamprobably.cf:2800/
