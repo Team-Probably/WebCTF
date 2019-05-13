@@ -4,7 +4,7 @@ The web challenges created by us for the introductory hands on workshop on web e
 
 ### Cookie
 
-Challenge link: http://34.212.196.64:2800/
+Challenge link: http://teamprobably.cf:2800/
 
 Challenge [write-up](./write-ups/cookie.md)
 
@@ -16,31 +16,31 @@ Challenge [write-up](./write-ups/source.md)
 
 ### 1024 captcha
 
-Challenge link: http://34.212.196.64:2100/
+Challenge link: http://teamprobably.cf:2100/
 
 Challenge [write-up](./write-ups/captcha.md)
 
 ### Flask Cards
 
-Challenge link: http://34.212.196.64:5000/
+Challenge link: http://teamprobably.cf:5000/
 
 Challenge [write-up](./write-ups/ninja.md)
 
 
 ### CSRF
 
-Challenge link: http://34.212.196.64:2500/
+Challenge link: http://teamprobably.cf:2500/
 
 Challenge [write-up](./write-ups/csrf.md)
 
 ### Cipher
 
-Challenge link: http://34.212.196.64:2600/
+Challenge link: http://teamprobably.cf:2600/
 
 Challenge [write-up](./write-ups/cipher.md)
 
 ### Reload
 
-Challenge link: http://34.212.196.64:2000/
+Challenge link: http://teamprobably.cf:2000/
 
 Challenge [write-up](./write-ups/reload.md)
