@@ -1,0 +1,31 @@
+version: '2'
+
+services:
+    1024captcha:
+        build: 1024captcha/
+        ports:
+            - '5100:80'
+    cipher:
+        build: cipher/
+        ports: 
+            - '5200:80'
+    cookie:
+        build: Cookie/
+        ports: 
+            - '5300:5000'
+    csrf:
+        build: csrf
+        ports: 
+            - '5400:5000'
+    flask_jinja:
+        build: FlaskJinja/
+        ports: 
+            - '5500:5000'
+    reload:
+        build: reload/
+        ports: 
+            - '5600:80'
+    source_code:
+        build: SourceCode/
+        ports: 
+            - '5700:80'
