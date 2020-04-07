@@ -1,4 +1,4 @@
-FROM python:3.6-alpine
+FROM python:3.6
 
 LABEL maintainer="teamprobably@gmail.com"
 
@@ -7,6 +7,7 @@ WORKDIR /app
 
 COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install git+https://github.com/abenassi/Google-Search-API
 
 COPY . /app
 

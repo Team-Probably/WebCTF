@@ -1,19 +1,15 @@
-FROM ubuntu:16.04
+FROM python:3.6-alpine
 
-# Meta Information
-MAINTAINER Kiteretsu "teamprobably@gmail.com"
+LABEL maintainer="teamprobably@gmail.com"
 
-ADD . /code
+RUN mkdir /app
+WORKDIR /app
 
-WORKDIR /code
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
 
-# update
-RUN apt update
+COPY . /app
 
-RUN apt install -y \
-	python3-pip
+EXPOSE 5000
 
-
-RUN pip3 install -r requirements.txt
-
-CMD ["python3","app.py"]
+CMD ["python", "app.py"]
